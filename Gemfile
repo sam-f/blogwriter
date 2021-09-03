@@ -25,7 +25,7 @@ gem "standard"
 gem "bootsnap", ">= 1.4.4", require: false
 
 group :test do
-  gem 'shoulda-matchers', '~> 4.0'
+  gem "shoulda-matchers", "~> 4.0"
 end
 
 group :development do
@@ -37,6 +37,7 @@ group :development do
   gem "listen", "~> 3.3"
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem "spring"
+  gem "guard-rspec", require: false
 end
 
 group :development, :test do
