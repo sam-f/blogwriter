@@ -13,6 +13,10 @@ gem "mysql2", "~> 0.5"
 gem "puma", "~> 5.0"
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem "webpacker", "~> 5.0"
+
+# Wrapper for OpenAI API
+gem "ruby-openai"
+
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
