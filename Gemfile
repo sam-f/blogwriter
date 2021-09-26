@@ -17,6 +17,9 @@ gem "webpacker", "~> 5.0"
 # Wrapper for OpenAI API
 gem "ruby-openai"
 
+# Handle user authentication easily.
+gem "devise"
+
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
